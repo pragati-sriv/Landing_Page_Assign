@@ -1,0 +1,21 @@
+.section6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkgreen;
+}
+.footer {
+  background-color: darkgreen;
+  color: white;
+  width: 100%;
+  padding: 4px;
+}

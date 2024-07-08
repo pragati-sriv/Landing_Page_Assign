@@ -1,0 +1,20 @@
+.section4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2b4622;
+  color: white;
+  text-align: center;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.difference {
+  background-color: #cc7722;
+}

@@ -1,0 +1,41 @@
+.card2_container {
+  width: 23%;
+  margin: 0.5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card2 {
+  width: 60%;
+  height: 200px;
+  object-fit: cover;
+  column-gap: 40px;
+}
+
+.content2 {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  flex-grow: 10;
+}
+@media (max-width: 1200px) {
+  .card2_container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card2_container {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card2_container {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
